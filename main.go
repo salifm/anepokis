@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"salifm.com/go/anepokis/web"
+	"salifm.com/go/anepokis/src/web"
 )
 
 func main() {

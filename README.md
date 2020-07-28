@@ -2,7 +2,7 @@
 
 > STATUS: Pre-alpha
 
-## Build
+## Install
 
 ```fish
 go get -u salifm.com/go/anepokis
@@ -11,10 +11,10 @@ go get -u salifm.com/go/anepokis
 ## Run
 
 ```fish
-anepokis
+anepokis 8080
 ```
 
-and navigate to [salifm.com/anepokis](https://salifm.com/anepokis)
+and navigate to [salifm.com/anepokis](https://salifm.com/anepokis) or [localhost:8080/docs](http://localhost:8080/docs)
 
 ## Licence
 

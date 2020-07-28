@@ -27,15 +27,6 @@ export const connect = () => {
 
 }
 
-export const listDatabases = () => {
-	const serverUrl = service.getServerUrl()
-	ajax.Get(serverUrl.append("databases"), (result) => {
-		console.log(result)
-	}, (err) => {
-		showError("Error: " + err.statusText)
-	})
-}
-
 export const disconnect = () => {
 	page.hide(dom.containers.database.container)
 	page.show(dom.containers.connect.container)
