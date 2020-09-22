@@ -1,10 +1,10 @@
-module salifm.com/go/anepokis
+module codeberg.org/salifm/anepokis
 
-go 1.14
+go 1.15
 
 require (
 	github.com/gin-contrib/cors v1.3.1
 	github.com/gin-gonic/gin v1.6.3
-	github.com/go-sql-driver/mysql v1.5.0
-	salifm.com/go/bgcf v0.0.0-20200728172559-9943f9e44e43
+	github.com/lib/pq v1.8.0
+	golang.org/x/sys v0.0.0-20200922070232-aee5d888a860 // indirect
 )

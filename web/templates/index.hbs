@@ -1,0 +1,19 @@
+<div class="jumbotron shadow-sm">
+	<h1>Anepokis</h1>
+</div>
+
+<form action="#/connect" method="POST">
+	<div class="form-group">
+		<input type="url" class="form-control" name="url" value="http://localhost:8413/v1/" placeholder="url" />
+		<input type="password" class="form-control" name="password" placeholder="password" style="margin-top: 10px;" />
+	</div>
+	{{#if err}}
+	<div class="alert alert-danger alert-dismissible fade show" role="alert">
+		<strong>Error!</strong> {{err}}
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	{{/if}}
+	<input type="submit" class="btn btn-primary" value="connect" id="submit" />
+</form>

@@ -1,18 +1,18 @@
-// Copyright 2020 Salif Mehmed
-// Licensed under the EUPL
+// Copyright 2020 Salif Mehmed and contributors
+// Licensed under the Anepokis License version 1.0
 
 package main
 
 import (
 	"os"
 
-	"salifm.com/go/anepokis/src/web"
+	"codeberg.org/salifm/anepokis/src/anepokis"
 )
 
 func main() {
-	port := ":8080"
+	port := ":8413"
 	if len(os.Args) > 1 {
 		port = ":" + os.Args[1]
 	}
-	web.NewWeb().Run(port)
+	anepokis.New().Start(port)
 }
