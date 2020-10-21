@@ -12,6 +12,3 @@ insert_final_newline = false
 
 [*.md]
 trim_trailing_whitespace = false
-
-[docker-compose.yaml]
-indent_style = space
